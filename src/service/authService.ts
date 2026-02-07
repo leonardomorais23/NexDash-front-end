@@ -4,7 +4,6 @@ interface LoginPayload {
   email: string;
   password: string;
 }
-
 interface LoginResponse {
   success: boolean;
   token?: string;
